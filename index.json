@@ -1,0 +1,264 @@
+{
+  "version": 1,
+  "name": "cmod-registry",
+  "description": "The cmod module registry index — Git-native C++20 module packages",
+  "modules": {
+    "com.github.cmod_ecosystem.abseil_cpp": {
+      "name": "com.github.cmod_ecosystem.abseil_cpp",
+      "description": "Abseil C++ common libraries (cmod monolithic port)",
+      "repository": "https://github.com/cmod-ecosystem/abseil-cpp",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "4183349bcfc0bdeddf113c3c3e20a9c0766ef8cd",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "abseil",
+        "absl",
+        "containers",
+        "strings"
+      ],
+      "category": "utility",
+      "license": "Apache-2.0",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    },
+    "com.github.cmod_ecosystem.catch2": {
+      "name": "com.github.cmod_ecosystem.catch2",
+      "description": "Modern C++ test framework (cmod port of catchorg/Catch2)",
+      "repository": "https://github.com/cmod-ecosystem/Catch2",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "ff1a64e1c9b8ee3227e82220e9bdba2211b2017e",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "test",
+        "testing",
+        "catch2",
+        "unit-test"
+      ],
+      "category": "testing",
+      "license": "BSL-1.0",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    },
+    "com.github.cmod_ecosystem.cli11": {
+      "name": "com.github.cmod_ecosystem.cli11",
+      "description": "Command line parser (cmod port of CLIUtils/CLI11, header-only)",
+      "repository": "https://github.com/cmod-ecosystem/CLI11",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "d662696552c7ff8f418e080c15f938592c8881a2",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "cli",
+        "argparse",
+        "command-line"
+      ],
+      "category": "cli",
+      "license": "BSD-3-Clause",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    },
+    "com.github.cmod_ecosystem.fmt": {
+      "name": "com.github.cmod_ecosystem.fmt",
+      "description": "A modern formatting library (cmod port of fmtlib/fmt)",
+      "repository": "https://github.com/cmod-ecosystem/fmt",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "7bf8390ac3597c064822927970e84d68574a8eff",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "fmt",
+        "format",
+        "formatting",
+        "print"
+      ],
+      "category": "text",
+      "license": "MIT",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    },
+    "com.github.cmod_ecosystem.googletest": {
+      "name": "com.github.cmod_ecosystem.googletest",
+      "description": "Google Test + Google Mock (cmod amalgamated port)",
+      "repository": "https://github.com/cmod-ecosystem/googletest",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "cc82c9f8e9f2676bc8240021a3c8a263cfda678a",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "test",
+        "testing",
+        "gtest",
+        "gmock"
+      ],
+      "category": "testing",
+      "license": "BSD-3-Clause",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    },
+    "com.github.cmod_ecosystem.json": {
+      "name": "com.github.cmod_ecosystem.json",
+      "description": "JSON for Modern C++ (cmod port of nlohmann/json, header-only)",
+      "repository": "https://github.com/cmod-ecosystem/json",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "3761884fb33141f616b71781a9c28cee06f04079",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "json",
+        "serialization",
+        "parser"
+      ],
+      "category": "serialization",
+      "license": "MIT",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    },
+    "com.github.cmod_ecosystem.protobuf": {
+      "name": "com.github.cmod_ecosystem.protobuf",
+      "description": "Protocol Buffers lite runtime (cmod port, depends on abseil-cpp)",
+      "repository": "https://github.com/cmod-ecosystem/protobuf",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "2e8791e4a9ba90e4c138ad2801a360337fb78d1d",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "protobuf",
+        "serialization",
+        "rpc"
+      ],
+      "category": "serialization",
+      "license": "BSD-3-Clause",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    },
+    "com.github.cmod_ecosystem.rapidjson": {
+      "name": "com.github.cmod_ecosystem.rapidjson",
+      "description": "Fast JSON parser/generator (cmod port of Tencent/rapidjson, header-only)",
+      "repository": "https://github.com/cmod-ecosystem/rapidjson",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "7a545097aa50f60a963793740e38f5d48d324079",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "json",
+        "parser",
+        "rapidjson"
+      ],
+      "category": "serialization",
+      "license": "MIT",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    },
+    "com.github.cmod_ecosystem.spdlog": {
+      "name": "com.github.cmod_ecosystem.spdlog",
+      "description": "Fast C++ logging library (cmod port of gabime/spdlog, external fmt)",
+      "repository": "https://github.com/cmod-ecosystem/spdlog",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "tag": "cmod-support",
+          "commit": "eda53d1264b0f3c8416caf3b8bae0b5979928075",
+          "min_cpp_standard": "17",
+          "published_at": "2026-07-18T00:00:00Z",
+          "yanked": false
+        }
+      ],
+      "keywords": [
+        "log",
+        "logging",
+        "spdlog"
+      ],
+      "category": "logging",
+      "license": "MIT",
+      "authors": [
+        "cmod-ecosystem"
+      ],
+      "updated_at": "2026-07-18T00:00:00Z",
+      "verified": true,
+      "deprecated": null
+    }
+  },
+  "updated_at": "2026-07-18T00:00:00Z"
+}
