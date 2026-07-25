@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "cmod-registry",
-  "description": "The cmod module registry index — Git-native C++20 module packages",
+  "description": "The cmod module registry index \u2014 Git-native C++20 module packages",
   "modules": {
     "com.github.cmod_ecosystem.abseil_cpp": {
       "name": "com.github.cmod_ecosystem.abseil_cpp",
@@ -110,7 +110,7 @@
         "print"
       ],
       "category": "text",
-      "license": "MIT",
+      "license": null,
       "authors": [
         "cmod-ecosystem"
       ],
@@ -196,34 +196,6 @@
       ],
       "category": "serialization",
       "license": "BSD-3-Clause",
-      "authors": [
-        "cmod-ecosystem"
-      ],
-      "updated_at": "2026-07-18T00:00:00Z",
-      "verified": true,
-      "deprecated": null
-    },
-    "com.github.cmod_ecosystem.rapidjson": {
-      "name": "com.github.cmod_ecosystem.rapidjson",
-      "description": "Fast JSON parser/generator (cmod port of Tencent/rapidjson, header-only)",
-      "repository": "https://github.com/cmod-ecosystem/rapidjson",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "tag": "cmod-support",
-          "commit": "7a545097aa50f60a963793740e38f5d48d324079",
-          "min_cpp_standard": "17",
-          "published_at": "2026-07-18T00:00:00Z",
-          "yanked": false
-        }
-      ],
-      "keywords": [
-        "json",
-        "parser",
-        "rapidjson"
-      ],
-      "category": "serialization",
-      "license": "MIT",
       "authors": [
         "cmod-ecosystem"
       ],
