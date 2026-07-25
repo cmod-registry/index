@@ -1,0 +1,30 @@
+name: Validate submission
+
+on:
+  pull_request:
+    paths: ["index.json"]
+
+jobs:
+  validate:
+    name: Governance validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Snapshot base index
+        run: git show "origin/${{ github.base_ref }}:index.json" > /tmp/base-index.json
+      - name: Checkout cmod
+        uses: actions/checkout@v4
+        with:
+          repository: satishbabariya/cmod
+          path: cmod
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: cmod
+      - name: Validate (governance rules + no-deletions policy)
+        run: |
+          cd cmod
+          cargo run -p cmod-cli --quiet -- registry validate \
+            "$GITHUB_WORKSPACE/index.json" --against /tmp/base-index.json

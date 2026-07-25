@@ -17,9 +17,10 @@ Enforced by `cmod`'s governance validation (`validate_for_publishing`):
 
 ## Submissions
 
-Phase 1 (current): entries are maintained by the registry maintainers.
-Phase 2 will accept pull requests validated by CI — see
-`docs/plan-search-registry.md` in the cmod repository for the roadmap.
+Open a pull request adding your entry to `index.json` — `cmod publish`
+prints a ready-made fragment when it lacks push access. The **Validate
+submission** CI check enforces the rules above plus the no-deletions
+policy; a maintainer merge completes the listing.
 
 ## Yanking
 
